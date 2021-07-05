@@ -15,8 +15,9 @@
     ```
 
     * categoryId
+    LSCの管理画面でクリップボードにコピーすることができます。
     ![categoryId](https://user-images.githubusercontent.com/63500101/124404198-d38b5200-dd74-11eb-8181-a07fbbb9156b.png)
-    
+
     * AWSのプロファイル名
     ```sh
     ホームディレクトリ/.aws/credentials
