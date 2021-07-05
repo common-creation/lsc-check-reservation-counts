@@ -9,7 +9,7 @@
     * 予約数をチェックしたいカレンダーのcategoryId
     * AWSのプロファイル名
 * 上記情報の確認方法は下記を参考にしてください。
-    * SurveyResults・SurveyCalendarsテーブルのテーブル名
+    * SurveyResults・SurveyCalendarsテーブルのテーブル名：以下のコマンドを実行して確認ができます。
     ```sh
     aws dynamodb list-tables --profile プロファイル名
     ```
@@ -17,7 +17,7 @@
     * categoryId：LSCの管理画面でクリップボードにコピーすることができます。
     ![categoryId](https://user-images.githubusercontent.com/63500101/124404198-d38b5200-dd74-11eb-8181-a07fbbb9156b.png)
 
-    * AWSのプロファイル名
+    * AWSのプロファイル名：以下のファイルで確認ができます。
     ```sh
     ホームディレクトリ/.aws/credentials
     ```
